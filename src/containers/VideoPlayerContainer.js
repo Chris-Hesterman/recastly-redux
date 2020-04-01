@@ -3,6 +3,7 @@ import VideoPlayer from '../components/VideoPlayer.js';
 
 var VideoPlayerContainer = () => {
 
+  //use click handler somehow?
 
   const mapStateToProps = (state) => ({
     currentVideo: state.currentVideo
