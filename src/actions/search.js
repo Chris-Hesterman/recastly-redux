@@ -8,16 +8,15 @@ var fetchVideos = (videos) => {
     type: 'SEARCH_YOUTUBE',
     videos: videos,
     currentVideo: videos[0]
-  }
-}
-
+  };
+};
 
 var handleVideoSearch = (q) => {
   return (dispatch) => {
-    searchYouTube({YOUTUBE_API_KEY, q}, (data) => {
+    searchYouTube({ YOUTUBE_API_KEY, q }, (data) => {
       dispatch(fetchVideos(data.items));
     });
-  }
+  };
 
   //old action:
   // searchYouTube({YOUTUBE_API_KEY, q}, (data) => {
