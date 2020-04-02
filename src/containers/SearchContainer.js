@@ -1,6 +1,6 @@
 import { connect } from 'react-redux';
 import Search from './../components/Search.js';
-import handleSearchChange from '../actions/search.js';
+import handleVideoSearch from '../actions/search.js';
 
 
 
@@ -15,7 +15,7 @@ const mapStateToProps = (state) => ({
 
 const mapDispatchToProps = (dispatch) => {
   return {
-    getYoutubeVideos: (query) => dispatch(handleSearchChange(query))
+    getYoutubeVideos: (query) => dispatch(handleVideoSearch(query))
 
   }
 };

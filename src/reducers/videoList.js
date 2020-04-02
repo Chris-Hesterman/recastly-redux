@@ -1,6 +1,7 @@
 import Redux from 'redux';
+import exampleVideoData from '../data/exampleVideoData.js';
 
-var videoListReducer = (state = sampleData, action) => {
+var videoListReducer = (state = { videos: exampleVideoData }, action) => {
   if (action.type === 'CHANGE_VIDEO_LIST') {
     return {
       videos: action.videos

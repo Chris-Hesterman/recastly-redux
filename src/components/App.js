@@ -1,7 +1,7 @@
 import React from 'react';
-import VideoList from './VideoList.js';
-import VideoPlayer from './VideoPlayer.js';
-import Search from './Search.js';
+import VideoListContainer from '../containers/VideoListContainer.js';
+import VideoPlayerContainer from '../containers/VideoPlayerContainer.js';
+import SearchContainer from '../containers/SearchContainer.js';
 
 class App extends React.Component {
   constructor(props) {
@@ -23,18 +23,20 @@ class App extends React.Component {
     this.setState({currentVideo: video});
   }
 
+  //refactor? get rid of props/state references?
+  //called by handleSearchChange
   getYouTubeVideos(query) {
     var options = {
       key: this.props.API_KEY,
       query: query
     };
 
-    this.props.searchYouTube(options, (videos) =>
-      this.setState({
-        videos: videos,
-        currentVideo: videos[0]
-      })
-    );
+    // this.props.searchYouTube(options, (videos) =>
+    //   this.setState({
+    //     videos: videos,
+    //     currentVideo: videos[0]
+    //   })
+    // );
   }
 
   //TODO: swap out the React components below for the container components
