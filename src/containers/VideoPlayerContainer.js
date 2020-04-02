@@ -1,7 +1,7 @@
 import { connect } from 'react-redux';
 import VideoPlayer from '../components/VideoPlayer.js';
 
-var VideoPlayerContainer = () => {
+
 
   //use click handler somehow?
 
@@ -9,13 +9,13 @@ var VideoPlayerContainer = () => {
     currentVideo: state.currentVideo
   });
 
-  const mapDispatchToProps = (dispatch) => ({
-    currentVideo: dispatch(currentVideo)
-  });
+  // const mapDispatchToProps = (dispatch) => ({
+  //   currentVideo: dispatch(currentVideo)
+  // });
   
 
-  return connect(mapStateToProps, mapDispatchToProps)(VideoPlayer);
-};
+  var VideoPlayerContainer = connect(mapStateToProps)(VideoPlayer);
+
 
 //TODO: define a VideoPlayerContainer component which will hook up your action
 //dispatchers with your VideoPlayer component props.
