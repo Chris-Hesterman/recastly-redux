@@ -1,5 +1,5 @@
 var changeVideoList = (videos) => ({
-  type: 'CHANGE_VIDEO_LIST',  
+  type: 'CHANGE_VIDEO_LIST',
   videos: videos
 });
 

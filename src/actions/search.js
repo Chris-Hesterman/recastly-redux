@@ -18,7 +18,7 @@ var handleVideoSearch = (q) => {
       dispatch(changeVideoList(data));
       dispatch(changeVideo(data[0]));
     });
-  }
+  };
 
   //old action:
   // searchYouTube({YOUTUBE_API_KEY, q}, (data) => {
