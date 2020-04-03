@@ -9,7 +9,7 @@ var VideoListEntry = ({video, handleVideoListEntryTitleClick}) => (
       <div
         className="video-list-entry-title"
         onClick={() => {
-          console.log('clicked');
+          console.log(video);
           return handleVideoListEntryTitleClick(video);
         }}
       >

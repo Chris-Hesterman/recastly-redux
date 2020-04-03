@@ -14,11 +14,12 @@ import YOUTUBE_API_KEY from '../config/youtube.js';
 //make use of changeVideoList/changeVideo directly, rather than fetchVideos?
 var handleVideoSearch = (q) => {
   return (dispatch) => {
-    searchYouTube({YOUTUBE_API_KEY, q}, (data) => {
+    searchYouTube(q, (data) => {   //removed YOUTUBE_API_KEY
       dispatch(changeVideoList(data));
       dispatch(changeVideo(data[0]));
     });
-  };
+  }
+}
 
   //old action:
   // searchYouTube({YOUTUBE_API_KEY, q}, (data) => {
@@ -29,6 +30,6 @@ var handleVideoSearch = (q) => {
   //   }
   // });
   //TODO:  Write an asynchronous action to handle a video search!
-};
+// };
 
 export default handleVideoSearch;

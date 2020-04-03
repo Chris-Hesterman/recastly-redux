@@ -9,7 +9,9 @@ class Search extends React.Component {
   }
 
   handleInputChange(e) {
+    console.log(this.props, 'props in Search')
     this.props.handleSearchInputChange(e.target.value);
+    console.log('Search.js input', e.target.value);
     this.setState({
       value: e.target.value
     });
