@@ -1,28 +1,30 @@
 import React from 'react';
+import store from '../store/store.js';
 import VideoListContainer from '../containers/VideoListContainer.js';
 import VideoPlayerContainer from '../containers/VideoPlayerContainer.js';
 import SearchContainer from '../containers/SearchContainer.js';
 import changeVideoList from '../actions/videoList.js';
-import changeVideo from '../actions/changeVideo.js';
+import changeVideo from '../actions/currentVideo.js';
 
 class App extends React.Component {
   constructor(props) {
     super(props);
 
-    this.state = {
-      videos: [],
-      currentVideo: null
-    };
+    // this.state = {
+    //   videos: [],
+    //   currentVideo: null
+    // };
 
     this.getYouTubeVideos = this.getYouTubeVideos.bind(this);
   }
 
   componentDidMount() {
-    this.getYouTubeVideos('giraffes');
+    console.log('not giraffes');
+    // this.getYouTubeVideos('giraffes');
   }
 
   handleVideoListEntryTitleClick(video) {
-    this.setState({ currentVideo: video });
+    store.dispatch(changeVideo(video));
   }
 
   //refactor? get rid of props/state references?
