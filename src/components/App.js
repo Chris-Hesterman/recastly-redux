@@ -16,11 +16,11 @@ class App extends React.Component {
   }
 
   componentDidMount() {
-    this.getYouTubeVideos('react tutorials');
+    this.getYouTubeVideos('giraffes');
   }
 
   handleVideoListEntryTitleClick(video) {
-    this.setState({currentVideo: video});
+    this.setState({ currentVideo: video });
   }
 
   //refactor? get rid of props/state references?

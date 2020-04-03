@@ -6,7 +6,7 @@ import YOUTUBE_API_KEY from '../config/youtube.js';
 var fetchVideos = (videos) => {
   return {
     type: 'SEARCH_YOUTUBE',
-    videos: videos,
+    videoList: videos,
     currentVideo: videos[0]
   };
 };
