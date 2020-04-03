@@ -3,19 +3,20 @@ import changeVideoList from './videoList.js';
 import changeVideo from './currentVideo.js';
 import YOUTUBE_API_KEY from '../config/youtube.js';
 
-var fetchVideos = (videos) => {
-  return {
-    type: 'SEARCH_YOUTUBE',
-    videos: videos,
-    currentVideo: videos[0]
-  }
-}
+// var fetchVideos = (videos) => {
+//   return {
+//     type: 'SEARCH_YOUTUBE', //none of our reducers match this
+//     videos: videos,
+//     currentVideo: videos[0]
+//   }
+// }
 
-
+//make use of changeVideoList/changeVideo directly, rather than fetchVideos?
 var handleVideoSearch = (q) => {
   return (dispatch) => {
     searchYouTube({YOUTUBE_API_KEY, q}, (data) => {
-      dispatch(fetchVideos(data.items));
+      dispatch(changeVideoList(data));
+      dispatch(changeVideo(data[0]));
     });
   }
 
