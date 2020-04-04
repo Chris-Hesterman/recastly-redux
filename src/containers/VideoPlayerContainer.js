@@ -1,15 +1,9 @@
 import { connect } from 'react-redux';
 import VideoPlayer from '../components/VideoPlayer.js';
 
-//use click handler somehow?
-
 const mapStateToProps = (state) => ({
-  video: state.currentVideo
+  video: state.currentVideo,
 });
-
-// const mapDispatchToProps = (dispatch) => ({
-//   currentVideo: dispatch(currentVideo)
-// });
 
 var VideoPlayerContainer = connect(mapStateToProps)(VideoPlayer);
 

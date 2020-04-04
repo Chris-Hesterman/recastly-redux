@@ -9,12 +9,6 @@ import changeVideo from '../actions/currentVideo.js';
 class App extends React.Component {
   constructor(props) {
     super(props);
-
-    // this.state = {
-    //   videos: [],
-    //   currentVideo: null
-    // };
-
     this.getYouTubeVideos = this.getYouTubeVideos.bind(this);
     this.handleAutoPlayToggle = this.handleAutoPlayToggle.bind(this);
   }
@@ -28,25 +22,11 @@ class App extends React.Component {
     store.dispatch(changeVideo(video));
   }
 
-  //refactor? get rid of props/state references?
-  //called by handleSearchChange
   getYouTubeVideos(query) {
-    // var options = {
-    //   key: this.props.API_KEY,
-    //   query: query
-    // };
-
-    //take out setState and instead call respective actions
-    this.props.searchYouTube(query, ((videos) => {
+    this.props.searchYouTube(query, (videos) => {
       store.dispatch(changeVideoList(videos));
       store.dispatch(changeVideo(videos[0]));
-    }));
-
-    // this.setState({
-    //   videos: videos,
-    //   currentVideo: videos[0]
-    // })
-    // );
+    });
   }
 
   handleAutoPlayToggle(e) {
@@ -55,7 +35,6 @@ class App extends React.Component {
     console.log(newSource, 'newSource');
     $('#iframe').attr('src', newSource);
   }
-
 
   //TODO: swap out the React components below for the container components
   //  you wrote in the 'containers' directory.
@@ -66,20 +45,19 @@ class App extends React.Component {
           <div className="col-md-6 col-md-offset-3">
             <SearchContainer />
           </div>
-          {/* <button id="autoPlay">Toggle Autoplay</button> */}
         </nav>
         <div>
           <label className="switch">Autoplay </label>
-          <input id="autoplay" type="checkbox"></input> 
+          <input id="autoplay" type="checkbox"></input>
         </div>
-          <div className="row">
-            <div className="col-md-7">
-              <VideoPlayerContainer />
-            </div>
-            <div className="col-md-5">
-              <VideoListContainer />
-            </div>
+        <div className="row">
+          <div className="col-md-7">
+            <VideoPlayerContainer />
           </div>
+          <div className="col-md-5">
+            <VideoListContainer />
+          </div>
+        </div>
       </div>
     );
   }

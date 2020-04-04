@@ -3,9 +3,9 @@ import React from 'react';
 class Search extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {
-      value: ''
-    };
+    // this.state = {
+    //   value: '',
+    // };
     this.handleInputChange = this.handleInputChange.bind(this);
   }
 
@@ -15,10 +15,10 @@ class Search extends React.Component {
       this.debouncedSearch = _.debounce(() => {
         let query = e.target.value;
         this.props.handleSearchInputChange(query);
-      }, 1000)
+      }, 1000);
     }
 
-    this.debouncedSearch(); 
+    this.debouncedSearch();
   }
 
   render() {

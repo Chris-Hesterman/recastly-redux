@@ -4,7 +4,7 @@ var data1 = [
     etag: '"xwzn9fn_LczrfK9QS3iZcGzqRGs/2VqoCa_ZPVw8lUUFMd_WucEkblQ"',
     id: {
       kind: 'youtube#video',
-      videoId: 'EfHxUaJDEn8'
+      videoId: 'EfHxUaJDEn8',
     },
     snippet: {
       publishedAt: '2020-03-31T17:00:04.000Z',
@@ -16,29 +16,29 @@ var data1 = [
         default: {
           url: 'https://i.ytimg.com/vi/EfHxUaJDEn8/default.jpg',
           width: 120,
-          height: 90
+          height: 90,
         },
         medium: {
           url: 'https://i.ytimg.com/vi/EfHxUaJDEn8/mqdefault.jpg',
           width: 320,
-          height: 180
+          height: 180,
         },
         high: {
           url: 'https://i.ytimg.com/vi/EfHxUaJDEn8/hqdefault.jpg',
           width: 480,
-          height: 360
-        }
+          height: 360,
+        },
       },
       channelTitle: 'zefrank1',
-      liveBroadcastContent: 'none'
-    }
+      liveBroadcastContent: 'none',
+    },
   },
   {
     kind: 'youtube#searchResult',
     etag: '"xwzn9fn_LczrfK9QS3iZcGzqRGs/6yeNi2HS3lP43MqduGoNULScmkY"',
     id: {
       kind: 'youtube#video',
-      videoId: 'P_ckAbOr0r4'
+      videoId: 'P_ckAbOr0r4',
     },
     snippet: {
       publishedAt: '2018-02-09T13:00:05.000Z',
@@ -50,29 +50,29 @@ var data1 = [
         default: {
           url: 'https://i.ytimg.com/vi/P_ckAbOr0r4/default.jpg',
           width: 120,
-          height: 90
+          height: 90,
         },
         medium: {
           url: 'https://i.ytimg.com/vi/P_ckAbOr0r4/mqdefault.jpg',
           width: 320,
-          height: 180
+          height: 180,
         },
         high: {
           url: 'https://i.ytimg.com/vi/P_ckAbOr0r4/hqdefault.jpg',
           width: 480,
-          height: 360
-        }
+          height: 360,
+        },
       },
       channelTitle: 'Nat Geo WILD',
-      liveBroadcastContent: 'none'
-    }
+      liveBroadcastContent: 'none',
+    },
   },
   {
     kind: 'youtube#searchResult',
     etag: '"xwzn9fn_LczrfK9QS3iZcGzqRGs/VNKwzIeFV2SLadyIJ3DOcB1WXHo"',
     id: {
       kind: 'youtube#video',
-      videoId: 'DXKe2Kpymw0'
+      videoId: 'DXKe2Kpymw0',
     },
     snippet: {
       publishedAt: '2017-12-01T18:09:20.000Z',
@@ -84,29 +84,29 @@ var data1 = [
         default: {
           url: 'https://i.ytimg.com/vi/DXKe2Kpymw0/default.jpg',
           width: 120,
-          height: 90
+          height: 90,
         },
         medium: {
           url: 'https://i.ytimg.com/vi/DXKe2Kpymw0/mqdefault.jpg',
           width: 320,
-          height: 180
+          height: 180,
         },
         high: {
           url: 'https://i.ytimg.com/vi/DXKe2Kpymw0/hqdefault.jpg',
           width: 480,
-          height: 360
-        }
+          height: 360,
+        },
       },
       channelTitle: 'Wildlife Documentary Channel',
-      liveBroadcastContent: 'none'
-    }
+      liveBroadcastContent: 'none',
+    },
   },
   {
     kind: 'youtube#searchResult',
     etag: '"xwzn9fn_LczrfK9QS3iZcGzqRGs/cxsZL-L4dbiXRJH7W8Gr9q5N3_o"',
     id: {
       kind: 'youtube#video',
-      videoId: 'uGKdMpZsooE'
+      videoId: 'uGKdMpZsooE',
     },
     snippet: {
       publishedAt: '2017-09-16T14:00:04.000Z',
@@ -118,29 +118,29 @@ var data1 = [
         default: {
           url: 'https://i.ytimg.com/vi/uGKdMpZsooE/default.jpg',
           width: 120,
-          height: 90
+          height: 90,
         },
         medium: {
           url: 'https://i.ytimg.com/vi/uGKdMpZsooE/mqdefault.jpg',
           width: 320,
-          height: 180
+          height: 180,
         },
         high: {
           url: 'https://i.ytimg.com/vi/uGKdMpZsooE/hqdefault.jpg',
           width: 480,
-          height: 360
-        }
+          height: 360,
+        },
       },
       channelTitle: 'Grunge',
-      liveBroadcastContent: 'none'
-    }
+      liveBroadcastContent: 'none',
+    },
   },
   {
     kind: 'youtube#searchResult',
     etag: '"xwzn9fn_LczrfK9QS3iZcGzqRGs/A3EAtbda1wTqSjVAyQ27RMeMaKA"',
     id: {
       kind: 'youtube#video',
-      videoId: '7Qw9FZ8ZlDk'
+      videoId: '7Qw9FZ8ZlDk',
     },
     snippet: {
       publishedAt: '2018-06-15T11:59:56.000Z',
@@ -153,23 +153,23 @@ var data1 = [
         default: {
           url: 'https://i.ytimg.com/vi/7Qw9FZ8ZlDk/default.jpg',
           width: 120,
-          height: 90
+          height: 90,
         },
         medium: {
           url: 'https://i.ytimg.com/vi/7Qw9FZ8ZlDk/mqdefault.jpg',
           width: 320,
-          height: 180
+          height: 180,
         },
         high: {
           url: 'https://i.ytimg.com/vi/7Qw9FZ8ZlDk/hqdefault.jpg',
           width: 480,
-          height: 360
-        }
+          height: 360,
+        },
       },
       channelTitle: 'Homeschool Pop',
-      liveBroadcastContent: 'none'
-    }
-  }
+      liveBroadcastContent: 'none',
+    },
+  },
 ];
 
 var data2 = [
@@ -178,7 +178,7 @@ var data2 = [
     etag: '"xwzn9fn_LczrfK9QS3iZcGzqRGs/ytGBEHhZd5Ico-uLkZilNqJh21Y"',
     id: {
       kind: 'youtube#video',
-      videoId: 'TgppkTXQMtc'
+      videoId: 'TgppkTXQMtc',
     },
     snippet: {
       publishedAt: '2020-04-03T14:00:11.000Z',
@@ -190,29 +190,29 @@ var data2 = [
         default: {
           url: 'https://i.ytimg.com/vi/TgppkTXQMtc/default.jpg',
           width: 120,
-          height: 90
+          height: 90,
         },
         medium: {
           url: 'https://i.ytimg.com/vi/TgppkTXQMtc/mqdefault.jpg',
           width: 320,
-          height: 180
+          height: 180,
         },
         high: {
           url: 'https://i.ytimg.com/vi/TgppkTXQMtc/hqdefault.jpg',
           width: 480,
-          height: 360
-        }
+          height: 360,
+        },
       },
       channelTitle: 'Kittisaurus',
-      liveBroadcastContent: 'none'
-    }
+      liveBroadcastContent: 'none',
+    },
   },
   {
     kind: 'youtube#searchResult',
     etag: '"xwzn9fn_LczrfK9QS3iZcGzqRGs/t5noQZJFHDmt9JWc00K1VTOKDcA"',
     id: {
       kind: 'youtube#video',
-      videoId: 'tg-6lz50-Tw'
+      videoId: 'tg-6lz50-Tw',
     },
     snippet: {
       publishedAt: '2020-04-03T08:04:20.000Z',
@@ -224,29 +224,29 @@ var data2 = [
         default: {
           url: 'https://i.ytimg.com/vi/tg-6lz50-Tw/default.jpg',
           width: 120,
-          height: 90
+          height: 90,
         },
         medium: {
           url: 'https://i.ytimg.com/vi/tg-6lz50-Tw/mqdefault.jpg',
           width: 320,
-          height: 180
+          height: 180,
         },
         high: {
           url: 'https://i.ytimg.com/vi/tg-6lz50-Tw/hqdefault.jpg',
           width: 480,
-          height: 360
-        }
+          height: 360,
+        },
       },
       channelTitle: 'Funny And Cute Kitten Cat',
-      liveBroadcastContent: 'none'
-    }
+      liveBroadcastContent: 'none',
+    },
   },
   {
     kind: 'youtube#searchResult',
     etag: '"xwzn9fn_LczrfK9QS3iZcGzqRGs/j-VjmqPpZHxtuY14CHFTTyMJPEU"',
     id: {
       kind: 'youtube#video',
-      videoId: 'DKxCvAc-DvU'
+      videoId: 'DKxCvAc-DvU',
     },
     snippet: {
       publishedAt: '2020-03-29T19:00:11.000Z',
@@ -259,29 +259,29 @@ var data2 = [
         default: {
           url: 'https://i.ytimg.com/vi/DKxCvAc-DvU/default.jpg',
           width: 120,
-          height: 90
+          height: 90,
         },
         medium: {
           url: 'https://i.ytimg.com/vi/DKxCvAc-DvU/mqdefault.jpg',
           width: 320,
-          height: 180
+          height: 180,
         },
         high: {
           url: 'https://i.ytimg.com/vi/DKxCvAc-DvU/hqdefault.jpg',
           width: 480,
-          height: 360
-        }
+          height: 360,
+        },
       },
       channelTitle: "Funny Animals' Life",
-      liveBroadcastContent: 'none'
-    }
+      liveBroadcastContent: 'none',
+    },
   },
   {
     kind: 'youtube#searchResult',
     etag: '"xwzn9fn_LczrfK9QS3iZcGzqRGs/YY7oY0rFsv-CZ84dARBpYhqB0Tc"',
     id: {
       kind: 'youtube#video',
-      videoId: 'NhHBElaarrI'
+      videoId: 'NhHBElaarrI',
     },
     snippet: {
       publishedAt: '2020-03-31T12:00:45.000Z',
@@ -294,29 +294,29 @@ var data2 = [
         default: {
           url: 'https://i.ytimg.com/vi/NhHBElaarrI/default.jpg',
           width: 120,
-          height: 90
+          height: 90,
         },
         medium: {
           url: 'https://i.ytimg.com/vi/NhHBElaarrI/mqdefault.jpg',
           width: 320,
-          height: 180
+          height: 180,
         },
         high: {
           url: 'https://i.ytimg.com/vi/NhHBElaarrI/hqdefault.jpg',
           width: 480,
-          height: 360
-        }
+          height: 360,
+        },
       },
       channelTitle: 'Aww Animals',
-      liveBroadcastContent: 'none'
-    }
+      liveBroadcastContent: 'none',
+    },
   },
   {
     kind: 'youtube#searchResult',
     etag: '"xwzn9fn_LczrfK9QS3iZcGzqRGs/kBpqOGC8piekyI_dObRJLyDmtho"',
     id: {
       kind: 'youtube#video',
-      videoId: 'i09cua9QN7I'
+      videoId: 'i09cua9QN7I',
     },
     snippet: {
       publishedAt: '2020-03-25T17:44:35.000Z',
@@ -329,23 +329,23 @@ var data2 = [
         default: {
           url: 'https://i.ytimg.com/vi/i09cua9QN7I/default.jpg',
           width: 120,
-          height: 90
+          height: 90,
         },
         medium: {
           url: 'https://i.ytimg.com/vi/i09cua9QN7I/mqdefault.jpg',
           width: 320,
-          height: 180
+          height: 180,
         },
         high: {
           url: 'https://i.ytimg.com/vi/i09cua9QN7I/hqdefault.jpg',
           width: 480,
-          height: 360
-        }
+          height: 360,
+        },
       },
       channelTitle: 'Aww Animals',
-      liveBroadcastContent: 'none'
-    }
-  }
+      liveBroadcastContent: 'none',
+    },
+  },
 ];
 
 var data3 = [
@@ -354,7 +354,7 @@ var data3 = [
     etag: '"xwzn9fn_LczrfK9QS3iZcGzqRGs/hmlUlLW9HRX8p_uoVylT0LpGC08"',
     id: {
       kind: 'youtube#video',
-      videoId: '9frLs4XicFY'
+      videoId: '9frLs4XicFY',
     },
     snippet: {
       publishedAt: '2020-04-02T22:16:55.000Z',
@@ -366,29 +366,29 @@ var data3 = [
         default: {
           url: 'https://i.ytimg.com/vi/9frLs4XicFY/default.jpg',
           width: 120,
-          height: 90
+          height: 90,
         },
         medium: {
           url: 'https://i.ytimg.com/vi/9frLs4XicFY/mqdefault.jpg',
           width: 320,
-          height: 180
+          height: 180,
         },
         high: {
           url: 'https://i.ytimg.com/vi/9frLs4XicFY/hqdefault.jpg',
           width: 480,
-          height: 360
-        }
+          height: 360,
+        },
       },
       channelTitle: 'One Bite Pizza Reviews',
-      liveBroadcastContent: 'none'
-    }
+      liveBroadcastContent: 'none',
+    },
   },
   {
     kind: 'youtube#searchResult',
     etag: '"xwzn9fn_LczrfK9QS3iZcGzqRGs/7fgNIMKJvlNxG-w0MNVxe6XiVjE"',
     id: {
       kind: 'youtube#video',
-      videoId: 'smjnOG1diXg'
+      videoId: 'smjnOG1diXg',
     },
     snippet: {
       publishedAt: '2020-03-28T16:00:03.000Z',
@@ -400,29 +400,29 @@ var data3 = [
         default: {
           url: 'https://i.ytimg.com/vi/smjnOG1diXg/default.jpg',
           width: 120,
-          height: 90
+          height: 90,
         },
         medium: {
           url: 'https://i.ytimg.com/vi/smjnOG1diXg/mqdefault.jpg',
           width: 320,
-          height: 180
+          height: 180,
         },
         high: {
           url: 'https://i.ytimg.com/vi/smjnOG1diXg/hqdefault.jpg',
           width: 480,
-          height: 360
-        }
+          height: 360,
+        },
       },
       channelTitle: 'Bon Appétit',
-      liveBroadcastContent: 'none'
-    }
+      liveBroadcastContent: 'none',
+    },
   },
   {
     kind: 'youtube#searchResult',
     etag: '"xwzn9fn_LczrfK9QS3iZcGzqRGs/1aGq8Y7e8DMewNTsUgkW_2K83tE"',
     id: {
       kind: 'youtube#video',
-      videoId: 'MpQxZVQPK8k'
+      videoId: 'MpQxZVQPK8k',
     },
     snippet: {
       publishedAt: '2020-04-03T14:15:02.000Z',
@@ -435,29 +435,29 @@ var data3 = [
         default: {
           url: 'https://i.ytimg.com/vi/MpQxZVQPK8k/default.jpg',
           width: 120,
-          height: 90
+          height: 90,
         },
         medium: {
           url: 'https://i.ytimg.com/vi/MpQxZVQPK8k/mqdefault.jpg',
           width: 320,
-          height: 180
+          height: 180,
         },
         high: {
           url: 'https://i.ytimg.com/vi/MpQxZVQPK8k/hqdefault.jpg',
           width: 480,
-          height: 360
-        }
+          height: 360,
+        },
       },
       channelTitle: 'Receitas Da Cris',
-      liveBroadcastContent: 'none'
-    }
+      liveBroadcastContent: 'none',
+    },
   },
   {
     kind: 'youtube#searchResult',
     etag: '"xwzn9fn_LczrfK9QS3iZcGzqRGs/JJsUk92LeTdyKEqQXlJ4e0IdMWM"',
     id: {
       kind: 'youtube#video',
-      videoId: 'KPdDm0mo2Ck'
+      videoId: 'KPdDm0mo2Ck',
     },
     snippet: {
       publishedAt: '2020-04-01T22:00:06.000Z',
@@ -469,29 +469,29 @@ var data3 = [
         default: {
           url: 'https://i.ytimg.com/vi/KPdDm0mo2Ck/default.jpg',
           width: 120,
-          height: 90
+          height: 90,
         },
         medium: {
           url: 'https://i.ytimg.com/vi/KPdDm0mo2Ck/mqdefault.jpg',
           width: 320,
-          height: 180
+          height: 180,
         },
         high: {
           url: 'https://i.ytimg.com/vi/KPdDm0mo2Ck/hqdefault.jpg',
           width: 480,
-          height: 360
-        }
+          height: 360,
+        },
       },
       channelTitle: 'One Bite Pizza Reviews',
-      liveBroadcastContent: 'none'
-    }
+      liveBroadcastContent: 'none',
+    },
   },
   {
     kind: 'youtube#searchResult',
     etag: '"xwzn9fn_LczrfK9QS3iZcGzqRGs/L85K5I7xxDHRwLwjJ6gswDnnKhQ"',
     id: {
       kind: 'youtube#video',
-      videoId: '5PV-dUZ8jKY'
+      videoId: '5PV-dUZ8jKY',
     },
     snippet: {
       publishedAt: '2020-04-02T09:00:14.000Z',
@@ -503,23 +503,23 @@ var data3 = [
         default: {
           url: 'https://i.ytimg.com/vi/5PV-dUZ8jKY/default.jpg',
           width: 120,
-          height: 90
+          height: 90,
         },
         medium: {
           url: 'https://i.ytimg.com/vi/5PV-dUZ8jKY/mqdefault.jpg',
           width: 320,
-          height: 180
+          height: 180,
         },
         high: {
           url: 'https://i.ytimg.com/vi/5PV-dUZ8jKY/hqdefault.jpg',
           width: 480,
-          height: 360
-        }
+          height: 360,
+        },
       },
       channelTitle: 'RUBSARB production',
-      liveBroadcastContent: 'none'
-    }
-  }
+      liveBroadcastContent: 'none',
+    },
+  },
 ];
 
 var data4 = [
@@ -528,7 +528,7 @@ var data4 = [
     etag: '"xwzn9fn_LczrfK9QS3iZcGzqRGs/E_V6RZYpIX8yBcgFyUe2qsDEy-0"',
     id: {
       kind: 'youtube#video',
-      videoId: 'fBYvHHT8fdE'
+      videoId: 'fBYvHHT8fdE',
     },
     snippet: {
       publishedAt: '2020-03-27T07:24:28.000Z',
@@ -540,29 +540,29 @@ var data4 = [
         default: {
           url: 'https://i.ytimg.com/vi/fBYvHHT8fdE/default.jpg',
           width: 120,
-          height: 90
+          height: 90,
         },
         medium: {
           url: 'https://i.ytimg.com/vi/fBYvHHT8fdE/mqdefault.jpg',
           width: 320,
-          height: 180
+          height: 180,
         },
         high: {
           url: 'https://i.ytimg.com/vi/fBYvHHT8fdE/hqdefault.jpg',
           width: 480,
-          height: 360
-        }
+          height: 360,
+        },
       },
       channelTitle: 'Cute Babies and Pets TV',
-      liveBroadcastContent: 'none'
-    }
+      liveBroadcastContent: 'none',
+    },
   },
   {
     kind: 'youtube#searchResult',
     etag: '"xwzn9fn_LczrfK9QS3iZcGzqRGs/gNsmRX5iJkf0RGoe0X2FaEzAnpk"',
     id: {
       kind: 'youtube#video',
-      videoId: 'wtH-hdOF1uA'
+      videoId: 'wtH-hdOF1uA',
     },
     snippet: {
       publishedAt: '2020-02-08T15:32:50.000Z',
@@ -575,29 +575,29 @@ var data4 = [
         default: {
           url: 'https://i.ytimg.com/vi/wtH-hdOF1uA/default.jpg',
           width: 120,
-          height: 90
+          height: 90,
         },
         medium: {
           url: 'https://i.ytimg.com/vi/wtH-hdOF1uA/mqdefault.jpg',
           width: 320,
-          height: 180
+          height: 180,
         },
         high: {
           url: 'https://i.ytimg.com/vi/wtH-hdOF1uA/hqdefault.jpg',
           width: 480,
-          height: 360
-        }
+          height: 360,
+        },
       },
       channelTitle: 'Aww Animals',
-      liveBroadcastContent: 'none'
-    }
+      liveBroadcastContent: 'none',
+    },
   },
   {
     kind: 'youtube#searchResult',
     etag: '"xwzn9fn_LczrfK9QS3iZcGzqRGs/USgSAF0IapM9k6Q80pejKjTGoyI"',
     id: {
       kind: 'youtube#video',
-      videoId: 'BkD2nN5275c'
+      videoId: 'BkD2nN5275c',
     },
     snippet: {
       publishedAt: '2020-02-19T20:53:36.000Z',
@@ -610,29 +610,29 @@ var data4 = [
         default: {
           url: 'https://i.ytimg.com/vi/BkD2nN5275c/default.jpg',
           width: 120,
-          height: 90
+          height: 90,
         },
         medium: {
           url: 'https://i.ytimg.com/vi/BkD2nN5275c/mqdefault.jpg',
           width: 320,
-          height: 180
+          height: 180,
         },
         high: {
           url: 'https://i.ytimg.com/vi/BkD2nN5275c/hqdefault.jpg',
           width: 480,
-          height: 360
-        }
+          height: 360,
+        },
       },
       channelTitle: "Funny Animals' Life",
-      liveBroadcastContent: 'none'
-    }
+      liveBroadcastContent: 'none',
+    },
   },
   {
     kind: 'youtube#searchResult',
     etag: '"xwzn9fn_LczrfK9QS3iZcGzqRGs/dkVsFonSTHSsVgcan59qRr-UCko"',
     id: {
       kind: 'youtube#video',
-      videoId: 'NwlwJjelgzs'
+      videoId: 'NwlwJjelgzs',
     },
     snippet: {
       publishedAt: '2018-03-30T11:30:00.000Z',
@@ -644,29 +644,29 @@ var data4 = [
         default: {
           url: 'https://i.ytimg.com/vi/NwlwJjelgzs/default.jpg',
           width: 120,
-          height: 90
+          height: 90,
         },
         medium: {
           url: 'https://i.ytimg.com/vi/NwlwJjelgzs/mqdefault.jpg',
           width: 320,
-          height: 180
+          height: 180,
         },
         high: {
           url: 'https://i.ytimg.com/vi/NwlwJjelgzs/hqdefault.jpg',
           width: 480,
-          height: 360
-        }
+          height: 360,
+        },
       },
       channelTitle: 'Tiger Productions',
-      liveBroadcastContent: 'none'
-    }
+      liveBroadcastContent: 'none',
+    },
   },
   {
     kind: 'youtube#searchResult',
     etag: '"xwzn9fn_LczrfK9QS3iZcGzqRGs/2QgI1vTASchbAeuImetEomJdGp0"',
     id: {
       kind: 'youtube#video',
-      videoId: 'lyelxGIydeQ'
+      videoId: 'lyelxGIydeQ',
     },
     snippet: {
       publishedAt: '2020-01-13T14:07:51.000Z',
@@ -679,23 +679,23 @@ var data4 = [
         default: {
           url: 'https://i.ytimg.com/vi/lyelxGIydeQ/default.jpg',
           width: 120,
-          height: 90
+          height: 90,
         },
         medium: {
           url: 'https://i.ytimg.com/vi/lyelxGIydeQ/mqdefault.jpg',
           width: 320,
-          height: 180
+          height: 180,
         },
         high: {
           url: 'https://i.ytimg.com/vi/lyelxGIydeQ/hqdefault.jpg',
           width: 480,
-          height: 360
-        }
+          height: 360,
+        },
       },
       channelTitle: 'Baby Awesome',
-      liveBroadcastContent: 'none'
-    }
-  }
+      liveBroadcastContent: 'none',
+    },
+  },
 ];
 
 var data5 = [
@@ -704,7 +704,7 @@ var data5 = [
     etag: '"xwzn9fn_LczrfK9QS3iZcGzqRGs/obMmYrWWrGT5YhDDS8gaEPQMwTc"',
     id: {
       kind: 'youtube#video',
-      videoId: 'OmDAIeWDqt0'
+      videoId: 'OmDAIeWDqt0',
     },
     snippet: {
       publishedAt: '2020-04-02T19:00:04.000Z',
@@ -716,29 +716,29 @@ var data5 = [
         default: {
           url: 'https://i.ytimg.com/vi/OmDAIeWDqt0/default.jpg',
           width: 120,
-          height: 90
+          height: 90,
         },
         medium: {
           url: 'https://i.ytimg.com/vi/OmDAIeWDqt0/mqdefault.jpg',
           width: 320,
-          height: 180
+          height: 180,
         },
         high: {
           url: 'https://i.ytimg.com/vi/OmDAIeWDqt0/hqdefault.jpg',
           width: 480,
-          height: 360
-        }
+          height: 360,
+        },
       },
       channelTitle: 'Linus Tech Tips',
-      liveBroadcastContent: 'none'
-    }
+      liveBroadcastContent: 'none',
+    },
   },
   {
     kind: 'youtube#searchResult',
     etag: '"xwzn9fn_LczrfK9QS3iZcGzqRGs/2AUCaDneHShZx0hO15K8Uj9iwRM"',
     id: {
       kind: 'youtube#video',
-      videoId: 'pYQtusd8deU'
+      videoId: 'pYQtusd8deU',
     },
     snippet: {
       publishedAt: '2020-04-01T19:32:53.000Z',
@@ -750,29 +750,29 @@ var data5 = [
         default: {
           url: 'https://i.ytimg.com/vi/pYQtusd8deU/default.jpg',
           width: 120,
-          height: 90
+          height: 90,
         },
         medium: {
           url: 'https://i.ytimg.com/vi/pYQtusd8deU/mqdefault.jpg',
           width: 320,
-          height: 180
+          height: 180,
         },
         high: {
           url: 'https://i.ytimg.com/vi/pYQtusd8deU/hqdefault.jpg',
           width: 480,
-          height: 360
-        }
+          height: 360,
+        },
       },
       channelTitle: 'Linus Tech Tips',
-      liveBroadcastContent: 'none'
-    }
+      liveBroadcastContent: 'none',
+    },
   },
   {
     kind: 'youtube#searchResult',
     etag: '"xwzn9fn_LczrfK9QS3iZcGzqRGs/40qpQywqMsl8FrOsEvFGqkFoQhE"',
     id: {
       kind: 'youtube#video',
-      videoId: 'DdzwSM3HAuA'
+      videoId: 'DdzwSM3HAuA',
     },
     snippet: {
       publishedAt: '2020-03-29T19:14:37.000Z',
@@ -784,29 +784,29 @@ var data5 = [
         default: {
           url: 'https://i.ytimg.com/vi/DdzwSM3HAuA/default.jpg',
           width: 120,
-          height: 90
+          height: 90,
         },
         medium: {
           url: 'https://i.ytimg.com/vi/DdzwSM3HAuA/mqdefault.jpg',
           width: 320,
-          height: 180
+          height: 180,
         },
         high: {
           url: 'https://i.ytimg.com/vi/DdzwSM3HAuA/hqdefault.jpg',
           width: 480,
-          height: 360
-        }
+          height: 360,
+        },
       },
       channelTitle: 'Linus Tech Tips',
-      liveBroadcastContent: 'none'
-    }
+      liveBroadcastContent: 'none',
+    },
   },
   {
     kind: 'youtube#searchResult',
     etag: '"xwzn9fn_LczrfK9QS3iZcGzqRGs/r9IhxmLN4J3mDSVeL-cP2C1eqPc"',
     id: {
       kind: 'youtube#video',
-      videoId: 'JBwMDfMfSNU'
+      videoId: 'JBwMDfMfSNU',
     },
     snippet: {
       publishedAt: '2020-03-28T19:00:43.000Z',
@@ -818,29 +818,29 @@ var data5 = [
         default: {
           url: 'https://i.ytimg.com/vi/JBwMDfMfSNU/default.jpg',
           width: 120,
-          height: 90
+          height: 90,
         },
         medium: {
           url: 'https://i.ytimg.com/vi/JBwMDfMfSNU/mqdefault.jpg',
           width: 320,
-          height: 180
+          height: 180,
         },
         high: {
           url: 'https://i.ytimg.com/vi/JBwMDfMfSNU/hqdefault.jpg',
           width: 480,
-          height: 360
-        }
+          height: 360,
+        },
       },
       channelTitle: 'Linus Tech Tips',
-      liveBroadcastContent: 'none'
-    }
+      liveBroadcastContent: 'none',
+    },
   },
   {
     kind: 'youtube#searchResult',
     etag: '"xwzn9fn_LczrfK9QS3iZcGzqRGs/UjZTu4RjpNUyoVhf999t6DTY-CQ"',
     id: {
       kind: 'youtube#video',
-      videoId: '75L8Hrb49A4'
+      videoId: '75L8Hrb49A4',
     },
     snippet: {
       publishedAt: '2019-07-25T19:16:21.000Z',
@@ -852,23 +852,23 @@ var data5 = [
         default: {
           url: 'https://i.ytimg.com/vi/75L8Hrb49A4/default.jpg',
           width: 120,
-          height: 90
+          height: 90,
         },
         medium: {
           url: 'https://i.ytimg.com/vi/75L8Hrb49A4/mqdefault.jpg',
           width: 320,
-          height: 180
+          height: 180,
         },
         high: {
           url: 'https://i.ytimg.com/vi/75L8Hrb49A4/hqdefault.jpg',
           width: 480,
-          height: 360
-        }
+          height: 360,
+        },
       },
       channelTitle: 'Linus Tech Tips',
-      liveBroadcastContent: 'none'
-    }
-  }
+      liveBroadcastContent: 'none',
+    },
+  },
 ];
 
 const moreData = {
@@ -876,6 +876,6 @@ const moreData = {
   cats: data2,
   pizza: data3,
   dogs: data4,
-  'linus tech tips': data5
+  'linus tech tips': data5,
 };
 export default moreData;
