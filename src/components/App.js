@@ -30,16 +30,16 @@ class App extends React.Component {
   //refactor? get rid of props/state references?
   //called by handleSearchChange
   getYouTubeVideos(query) {
-    var options = {
-      key: this.props.API_KEY,
-      query: query
-    };
+    // var options = {
+    //   key: this.props.API_KEY,
+    //   query: query
+    // };
 
     //take out setState and instead call respective actions
-    this.props.searchYouTube(options, (videos) => {
+    this.props.searchYouTube(query, ((videos) => {
       store.dispatch(changeVideoList(videos));
       store.dispatch(changeVideo(videos[0]));
-    })
+    }));
 
       // this.setState({
       //   videos: videos,

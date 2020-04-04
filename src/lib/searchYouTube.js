@@ -1,26 +1,53 @@
 import moreData from '../data/moreData.js';
+import YOUTUBE_API_KEY from '../config/youtube.js';
 
-var searchYouTube = ({key, query, max=5}, callback) => {
-  console.log('query in searchYouTube', query);
-  
-  $.get('https://www.googleapis.com/youtube/v3/search', {
+var searchYouTube = function (query, callback) {
+
+  var options = {
     part: 'snippet',
-    key: key,
+    key: YOUTUBE_API_KEY,
     q: query,
-    maxResults: max,
+    maxResults: 5,
     type: 'video',
     videoEmbeddable: 'true'
-  })
-    .done(({items}) => {
-      if (callback) {
-        callback(items);
-      }
+  }
+
+  console.log('query in searchYouTube', query);
+
+  var url = 'https://www.googleapis.com/youtube/v3/search?' + $.param(options);
+
+  fetch(url)
+    .then((response) => {
+      console.log(response, 'response');
+      return response.json();
     })
-    .fail(({responseJSON}) => {
-      responseJSON.error.errors.forEach((err) =>
-        console.error(err)
-      );
+    .then((data) => {
+      callback(data.items);
+    })
+    .catch((error) => {
+      console.error('Error:', error);
     });
+
+
+
+  // $.get('https://www.googleapis.com/youtube/v3/search', {
+  //   part: 'snippet',
+  //   key: key,
+  //   q: query,
+  //   maxResults: max,
+  //   type: 'video',
+  //   videoEmbeddable: 'true'
+  // })
+  //   .done(({items}) => {
+  //     if (callback) {
+  //       callback(items);
+  //     }
+  //   })
+  //   .fail(({responseJSON}) => {
+  //     responseJSON.error.errors.forEach((err) =>
+  //       console.error(err)
+  //     );
+  //   });
 
 };
 
