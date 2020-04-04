@@ -22,8 +22,8 @@ var VideoPlayer = (props) => {
 
 // PropTypes tell other developers what `props` a component expects
 // Warnings will be shown in the console when the defined rules are violated
-VideoPlayer.propTypes = {
-  currentVideo: React.PropTypes.object.isRequired
-};
+// VideoPlayer.propTypes = {
+//   currentVideo: React.PropTypes.object.isRequired
+// };
 
 export default VideoPlayer;

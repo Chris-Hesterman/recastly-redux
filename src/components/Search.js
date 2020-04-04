@@ -6,15 +6,19 @@ class Search extends React.Component {
     this.state = {
       value: ''
     };
+    this.handleInputChange = this.handleInputChange.bind(this);
   }
 
   handleInputChange(e) {
-    console.log(this.props, 'props in Search')
-    this.props.handleSearchInputChange(e.target.value);
-    console.log('Search.js input', e.target.value);
-    this.setState({
-      value: e.target.value
-    });
+    e.persist();
+    if (!this.debouncedSearch) {
+      this.debouncedSearch = _.debounce(() => {
+        let query = e.target.value;
+        this.props.handleSearchInputChange(query);
+      }, 1000)
+    }
+
+    this.debouncedSearch(); 
   }
 
   render() {
@@ -23,8 +27,8 @@ class Search extends React.Component {
         <input
           className="form-control"
           type="text"
-          value={this.state.value}
-          onChange={this.handleInputChange.bind(this)}
+          //value={this.state.value}
+          onChange={this.handleInputChange}
         />
         <button className="btn hidden-sm-down">
           <span className="glyphicon glyphicon-search"></span>

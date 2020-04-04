@@ -8,7 +8,7 @@ const storeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEV
 
 var store = createStore(
   rootReducer,
-  { videoList: exampleVideoData, currentVideo: exampleVideoData[0] }, applyMiddleware(thunk), storeEnhancers
+  { videoList: exampleVideoData, currentVideo: null }, applyMiddleware(thunk), storeEnhancers
   
 );
 
